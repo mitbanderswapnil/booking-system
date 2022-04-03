@@ -1,0 +1,500 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+.carouselcolor{
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar{
+  background-color: #fff;
+  position: sticky;
+  display: flex;
+}
+
+.navbar-brand{
+  font-size: 1.9rem ;
+  color: #565387 ;
+  
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+  color: #3498db;
+}
+
+.d-block img{
+  width: 25%;
+  height: 25%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.navbar-brand{
+  font-family: 'Fredoka One', cursive;
+}
+
+.navbar-brand::before{
+  content: "~VAS-Booking~";
+  color: rgb(50, 50, 173);
+  position: absolute;
+  border-right: 0.15rem solid rgb(50, 50, 173);
+  width: 11%;
+   animation: slide 2s linear infinite;
+  -webkit-animation: slide 3s linear infinite;
+  overflow: hidden; 
+}
+
+@keyframes slide {
+  0%{
+    width: 0%;
+  }
+  5.9%{
+    width: 11.8%;
+  }
+  11.8%{
+    width: 0%;
+  }
+
+}
+
+.d-block{
+  padding-top: 50px;
+  width:30px;
+  height: 500px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.card{
+  width: 18rem;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.container1{
+  background-color: #B2DFEE;
+}
+.container2{
+  background-color: #B2DFEE;
+  height: 100vh;
+}
+
+.card1{
+  width: 18rem;
+  margin-left: 20px;
+  margin-top: 25px;
+  background-color: #38b438;
+}
+.card2{
+  width: 18rem;
+  margin-left: 20px;
+  margin-top: 25px;
+  background-color: rgb(255, 243, 0);
+}
+
+.card3{
+  width: 18rem;
+  margin-left: 20px;
+  margin-top: 25px;
+  background-color: orange;
+}
+/* =======View======== */
+
+.bbg{
+  background-image: url("images/s3.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+}
+
+.title{
+  font-size: 44px;
+  color: black;
+}
+
+.div1{
+  /* background-color: black; */
+  color: white;
+  padding:20px;
+}
+
+.my-button{
+  width: 200px;
+  height: 80px;
+  font-size: 30px;
+  font-family: lato;
+  background-color: #5C6AC4;
+  margin-right: 40px;
+  }
+  
+  .my-button-5{
+  width: 200px;
+  height: 80px;
+  font-size: 30px;
+  font-family: lato;
+  background-color: yellow;
+  margin-top: 40px;
+  margin-right: 40px;
+  }
+  
+  .my-button-9{
+  width: 200px;
+  height: 60px;
+  font-size: 16px;
+  margin-left: 400px;
+  margin-top: 40px;
+
+  }
+  
+  
+  .my-button-10{
+  width: 200px;
+  height: 60px;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  }
+  
+  .my-button-2{
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+  margin-right: 80px;
+  margin-left: 80px;
+  }
+  
+  .my-button-3{
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+  margin-right: 80px;
+  }
+  .my-button-4{
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+  margin-right: 80px;
+  }
+  
+  .my-button-6{
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+  margin-right: 80px;
+  margin-left: 80px;
+  }
+  
+  .my-button-7{
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+  margin-right: 80px;
+  }
+  
+  .my-button-8{
+  width: 200px;
+  height: 60px;
+  font-size: 22px;
+  margin-right: 80px;
+ 
+  }
+
+  
+
+  .title{
+    text-align: center;
+  }
+
+/* ==============Login================== */
+
+.login-content{
+ 
+  background-image: url("images/bg1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+}
+.logfo{ 
+  /* margin-top: 0%; */
+  font-family: 'IM Fell English SC', serif;
+	border: 3px solid whitesmoke;
+  background-color: lightsteelblue;
+      width: 40%;
+      max-width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 3px;
+
+    
+  }
+  label{
+    font-family: 'Roboto Mono', monospace;
+    margin: 8px 0 ;
+  }
+  .head1{
+    font-family: 'IM Fell English SC', serif;
+    margin-top: 1%;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .luname{
+  width: 100%;
+  padding: 15px 5px;
+  margin: 8px 0 ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.lpass{
+  width: 100%;
+  padding: 17px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'IM Fell English SC', serif;
+}
+
+  .my-butt {
+    border-radius: 40px;
+  background-color: yellowgreen;
+  color: white;
+  height:50px;
+   padding: 15px 25px 15px 25px; 
+  margin: 8px 200px;
+  border: none;
+  cursor: pointer;
+  font-family: 'IM Fell English SC', serif;
+}
+
+
+.my-butt:hover {
+  opacity: 0.8;
+} 
+
+
+
+/* .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+} */
+
+ .container {
+ padding-top: 12px;
+}
+
+span.ad {
+ float:left;
+  padding-top: 16px;
+  text-decoration: none;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+  margin-left: 50px;
+  text-decoration: none;
+} 
+
+/* #box2{
+  display: none;
+}  */
+
+@media screen and (max-width:50px){
+  .left, .main,.right{
+    width:100%;
+  }
+}
+
+/* Change styles for span on extra small screens */
+ /* @media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+  }  */
+
+ 
+  
+
+  /* ========Booking======== */
+
+  
+  input{
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    text-indent: 5px;
+  }
+  input:focus{
+    outline: none;
+  }
+  fieldset{
+    
+    width: 60%;
+    height: 730px;
+    background-color: lightgrey;
+    border-radius:20px;
+    outline: none;
+  }
+  .container3{
+    background-color: #B2DFEE;
+  }
+
+  table{
+    font-size: 20px;
+  }
+  td{
+    line-height: 45px;
+  }
+  input[type="Submit"]{
+    margin-top: 40px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color: chartreuse;
+  }
+  input[type="Submit"]:hover{
+    background-color: darkgreen;
+  }
+  form {
+    border: 3px solid #f1f1f1;
+        margin: auto;
+        width: 100%;
+        max-width: 90;
+      
+    }
+    .form-container h3 {
+      text-align: center;
+      padding: 8px;
+    }
+  /* input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=text], input[type=username] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } */
+  
+    /* .mybutton {
+      border-radius: 20px;
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 5;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    float: center;
+  }
+  /*.btn{ */
+    /* margin-center: 190px;
+    background-color: Red;
+  * */
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .styling{
+    margin-top: 40px;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+  
+    }
+
+    /* Firebase login */
+
+    .headingss{
+      justify-content: center;
+      text-align: center;
+      margin-top: 135px; 
+      box-sizing: border-box;
+      border: 2px solid black;
+      box-shadow: 10px 10px 10px 10px #8888;
+      width: 400px;
+      margin-left: 500px;
+      padding-bottom: 30px;
+      background-color: rgb(127, 224, 228);
+    }
+    
+    .i1{
+      margin-right: 100px;
+      font-size: 14px;
+      margin-left: 20px;
+      padding: 5px 10px 5px 10px;
+      border-radius: 20px;
+      font-style: italic;
+    }
+    
+    .l1{
+      font-size: 14px;
+      font-weight: bold;
+      float:left;
+      padding: 17px;
+    
+    }
+    
+    .sub{
+      font-size: 14px;
+      border-radius: 10px;
+      padding: 5px 8px 5px 5px;
+      box-shadow: 2px 2px 2px 2px #8888; 
+     position: flex;
+    }
+    
